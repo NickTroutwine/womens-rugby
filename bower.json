@@ -1,0 +1,20 @@
+{
+  "name": "womens-rugby",
+  "version": "0.0.0",
+  "homepage": "https://github.com/NickTroutiwne/womens-rugby",
+  "authors": [
+    "NickTroutwine", "Matt Eubanks"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.15"
+  }
+}

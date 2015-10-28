@@ -1,0 +1,9 @@
+{
+  "name": "womens-rugby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}

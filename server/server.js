@@ -9,16 +9,16 @@ app.all('/',function(req,res,next){
 });
 
 app.get('/members', function (req, res){
-  res.sendFile(path.join(__dirname, '/../client/app/index.html'));
+  res.sendFile(path.join(__dirname, '/../client/index.html'));
 });
 app.get('/schedule', function (req, res){
-  res.sendFile(path.join(__dirname, '/../client/app/index.html'));
+  res.sendFile(path.join(__dirname, '/../client/index.html'));
 });
 
 app.use(express.static('client'));
 
 
-app.listen(process.env.PORT || 3000);
+app.listen(3000);
 
 
 module.exports = app;

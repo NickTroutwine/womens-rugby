@@ -7,25 +7,30 @@
   <base href="/">
 <script src="./lib/angular/angular.min.js"></script>
 <script src="./lib/angular-ui-router/release/angular-ui-router.min.js"></script>
-<!-- <script src="./lib/jquery/dist/jquery.js"></script> 
-<script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>  -->
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="./lib/jquery/dist/jquery.js"></script> 
+<script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script> 
+<link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css"></link>
+<link rel="stylesheet" href="./stylesheet.css"></link>
+<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<script src="main.js"></script>
+ --><script src="main.js"></script>
 </head>
 
 <body ng-app="main">
 
   
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default headerbar">
   <div class="container-fluid">
     <div class="navbar-header">
-      <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="home">Home</a></li>
-        <li role="presentation"><a ui-sref="members">Members</a></li>
-        <li role="presentation"><a ui-sref="schedule">Schedule</a></li>
-      </ul>
+ <ul class="nav nav-tabs">
+  <li role="presentation"><a class="navbar-brand" href="home">
+    <img alt="Brand" class='image' src="https://www.ucmo.edu/graphics/images/Photos%20for%20Summer%20Camp%20page/UCM_Mule_WHITE.png">
+  </a></li>
+  <li role="presentation"><a href="home">Home</a></li>
+  <li role="presentation"><a href="members">Members</a></li>
+  <li role="presentation"><a href="schedule">Schedule</a></li>
+</ul>
     </div>
   </div>
 </nav>

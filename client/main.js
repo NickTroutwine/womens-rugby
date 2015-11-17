@@ -24,3 +24,7 @@ angular.module('main', [
     });
   });
 })();
+
+$("#clickme").click(function() {
+     $("#hidden").show();
+});

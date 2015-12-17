@@ -17,3 +17,9 @@ p {
 	height: 50px;
 	padding-bottom: 20px;
 }
+.navbar {
+	border:0px;
+}
+.nav-tabs{
+	border:0px;
+}

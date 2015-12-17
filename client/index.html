@@ -10,23 +10,46 @@
 <script src="./lib/jquery/dist/jquery.js"></script> 
 <script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script> 
 <script src="./lib/jquery-ui/jquery-ui.js"></script>
-  <script>
-  $(function() {
-    $( "#accordion" ).accordion();
-  });
-  </script>
+
 <link rel="stylesheet" href="./lib/jquery-ui/themes/smoothness/jquery-ui.css"></link>
 <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css"></link>
 <link rel="stylesheet" href="./stylesheet.css"></link>
 <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
- --><script src="main.js"></script>
+
+ -->
+
+<!-- Add jQuery library -->
+<<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="./lib/fancyapps/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="./lib/fancyapps/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="./lib/fancyapps/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="./lib/fancyapps/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="./lib/fancyapps/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="./lib/fancyapps/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="./lib/fancyapps/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="./lib/fancyapps/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+
+
+ <script src="main.js"></script>
 </head>
 
 <body ng-app="main">
 
-  
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
 <nav class="navbar navbar-default headerbar">
   <div class="container-fluid">
     <div class="navbar-header">
